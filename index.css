@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+.home-title{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    margin: auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.home-background{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#home-point{
+    position: absolute;
+    margin: auto;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+#freethrowHome{
+    position: absolute;
+    left: 89px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#midthrowHome{
+    position: absolute;
+    left: 143px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+    
+    color: #9AABD8;
+}
+
+#longthrowHome{
+    position: absolute;
+
+    left: 199px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+.guest-title{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    margin: auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.guest-background{
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#guest-point{
+    position: absolute;
+    margin: auto;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    color: #F94F6D;
+    text-align: center;
+}
+
+#freethrowGuest{
+    position: absolute;
+    left: 344px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#midthrowGuest{
+    position: absolute;
+    left: 398px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+#longthrowGuest{
+    position: absolute;
+    left: 454px;
+    top: 280px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+.btn{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+}
+
+.clearBtn{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    left: 247px;
+    top: 371px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+}
